@@ -5,6 +5,8 @@
 
   This application is my first site using API calls, multiple pages, and a CSS framework (Materialize). It is a front-end site using basic HTML, CSS, and Javascript. It makes API calls to an exercise API and a diet API to display a list of exercise and diet options, then displays a random exercise or recipe based on the user's selection. 
 
+  Visit the deployed site at: https://42salokin.github.io/wild_wellness/
+
   ![Alt text](./assets/images/Wild%20Wild%20Wellness%20screenshot.png)
 
   ## Table of Contents
