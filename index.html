@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>The Wild Nation</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper header" id="nav-cont">
+        <a href="./index.html" class="brand-logo center" id="glow">Wild Wild Wellness</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger" id="right-align"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="right-a" href="./aboutus.html">About Us</a></li>
+          <li><a class="right-a" href="./contactus.html">Contact Us</a></li>
+          <li><a class="right-a" href="./fave.html">Favorites</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="./aboutus.html">About Us</a></li>
+      <li><a href="./contactus.html">Contact Us</a></li>
+      <li><a href="./fave.html">Favorites</a></li>
+    </ul>
+
+    <section class="middle">
+      <a class="dropdown-trigger btn" href="#" data-target="dropdown1"
+        >Exercise</a
+      >
+      <ul id="dropdown1" class="dropdown-content"></ul>
+      <ul id="dropdown2" class="dropdown-content"></ul>
+      <h2>
+        No Need to go to the gym!<br />
+        Workout from home!
+      </h2>
+      <a class="dropdown-trigger btn" href="#" data-target="dropdown2">Diet</a>
+    </section>
+    <article class="info">
+      <img class="main-img" src="./assets/images/fitness-trends.jpg" alt="Fitness Trends" />
+    </article>
+    <h3> Know your goals of how you want to stay fit?</h3>
+  <!-- Adds exercise card with API data -->
+  <div class = "container"> 
+    <div class="row">
+        <div class="col s12 m6">
+          <div class="card" id="ex-card">
+            
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+            <div class="card" id="food-card">
+              
+            </div>
+          </div>
+      </div>
+    </div>
+<div class = "form">
+    <a href="#top">Back to Top</a>
+
+<footer class = "footer">
+  Copyright ©2024
+  The Wild Nation<br>
+  Wild Wild Wellness  
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./assets/js/sideNav.js"></script>
+<script src="./assets/js/exerScript.js"></script>
+<script src="./assets/js/dietScript.js"></script>
+</body>
+</html>
